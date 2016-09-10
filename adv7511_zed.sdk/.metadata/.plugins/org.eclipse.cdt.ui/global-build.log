@@ -1,0 +1,419 @@
+11:06:50 **** Clean-only build of configuration Debug for project TP2 ****
+make clean 
+rm -rf  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o  ./src/cf_hdmi.d ./src/main.d ./src/transmitter.d  TP2.elf.size  TP2.elf
+ 
+11:06:50 **** Clean-only build of project TP2_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+11:06:50 **** Build of project TP2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+C:/Logiciels/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:07:08 **** Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/cf_hdmi.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/cf_hdmi.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cf_hdmi.d" -MT"src/cf_hdmi.d" -o "src/cf_hdmi.o" "../src/cf_hdmi.c"
+Finished building: ../src/cf_hdmi.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/main.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:46:0:
+../../TP2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TP2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/transmitter.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/transmitter.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transmitter.d" -MT"src/transmitter.d" -o "src/transmitter.o" "../src/transmitter.c"
+Finished building: ../src/transmitter.c
+ 
+Building target: TP2.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\lib" -Wl,-T -Wl,../src/lscript.ld -L../../TP2_bsp/ps7_cortexa9_0/lib -o "TP2.elf"  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZedBoardLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TP2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size TP2.elf  |tee "TP2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102793	 704576	  23452	 830821	  cad65	TP2.elf
+Finished building: TP2.elf.size
+ 
+11:08:41 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:08:45 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:10:01 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:11:29 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:14:00 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/main.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:46:0:
+../../TP2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TP2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+Finished building: ../src/main.c
+ 
+Building target: TP2.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\lib" -Wl,-T -Wl,../src/lscript.ld -L../../TP2_bsp/ps7_cortexa9_0/lib -o "TP2.elf"  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZedBoardLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TP2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size TP2.elf  |tee "TP2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102793	 704576	  23452	 830821	  cad65	TP2.elf
+Finished building: TP2.elf.size
+ 
+11:15:24 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/transmitter.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/transmitter.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transmitter.d" -MT"src/transmitter.d" -o "src/transmitter.o" "../src/transmitter.c"
+Finished building: ../src/transmitter.c
+ 
+Building target: TP2.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\lib" -Wl,-T -Wl,../src/lscript.ld -L../../TP2_bsp/ps7_cortexa9_0/lib -o "TP2.elf"  ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZedBoardLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TP2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size TP2.elf  |tee "TP2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102793	 704576	  23452	 830821	  cad65	TP2.elf
+Finished building: TP2.elf.size
+ 
+11:15:29 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:18:59 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+Finished building: ../src/bitmap.c
+ 
+Building target: TP2.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\lib" -Wl,-T -Wl,../src/lscript.ld -L../../TP2_bsp/ps7_cortexa9_0/lib -o "TP2.elf"  ./src/bitmap.o ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZedBoardLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TP2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size TP2.elf  |tee "TP2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102793	 704576	  23452	 830821	  cad65	TP2.elf
+Finished building: TP2.elf.size
+ 
+11:19:12 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+11:21:36 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+../src/bitmap.c:4:2: error: unknown type name 'UCHAR'
+  UCHAR R;
+  ^
+../src/bitmap.c:5:2: error: unknown type name 'UCHAR'
+  UCHAR G;
+  ^
+../src/bitmap.c:6:2: error: unknown type name 'UCHAR'
+  UCHAR B;
+  ^
+../src/bitmap.c:9:1: error: unknown type name 'UINT'
+ UINT readValue(const UCHAR* fileBuf, /* buffer du fichier bmp */
+ ^
+../src/bitmap.c:9:22: error: unknown type name 'UCHAR'
+ UINT readValue(const UCHAR* fileBuf, /* buffer du fichier bmp */
+                      ^
+../src/bitmap.c:10:7: error: unknown type name 'UINT'
+ const UINT offset, /* Place ou on veut commencer la lecture */
+       ^
+../src/bitmap.c:11:7: error: unknown type name 'UINT'
+ const UINT width /* Largeur en bytes du champ a lire */
+       ^
+../src/bitmap.c: In function 'readValue':
+../src/bitmap.c:13:2: error: unknown type name 'UINT'
+  UINT result = 0;
+  ^
+../src/bitmap.c:14:2: error: unknown type name 'UINT'
+  UINT i;
+  ^
+../src/bitmap.c: At top level:
+../src/bitmap.c:23:1: error: unknown type name 'UINT'
+ UINT bmp_nb_RLE_pixel(UCHAR *buf /* buffer du fichier bmp */
+ ^
+../src/bitmap.c:23:23: error: unknown type name 'UCHAR'
+ UINT bmp_nb_RLE_pixel(UCHAR *buf /* buffer du fichier bmp */
+                       ^
+../src/bitmap.c:34:24: error: unknown type name 'UCHAR'
+ void bmp_to_crgb(const UCHAR *buf, /* buffer du fichier bmp */
+                        ^
+../src/bitmap.c:35:1: error: unknown type name 'UINT'
+ UINT nbRLEpixel, /* Nb de paire (counter, pixel) */
+ ^
+../src/bitmap.c:36:1: error: unknown type name 'UINT32'
+ UINT32 *crgb /* (counter,R,G,B) extrait de buf */
+ ^
+make: *** [src/bitmap.o] Erreur 1
+11:21:51 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.c:1:0:
+../src/bitmap.h:13:16: fatal error: ff.h: No such file or directory
+ #include "ff.h"
+                ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+11:22:37 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.c:1:0:
+../src/bitmap.h:10:16: fatal error: ff.h: No such file or directory
+ #include "ff.h"
+                ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+11:34:15 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.c:1:0:
+../src/bitmap.h:10:16: fatal error: ff.h: No such file or directory
+ #include "ff.h"
+                ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+12:51:26 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.c:1:0:
+../src/bitmap.h:13:1: error: unknown type name 'UINT'
+ UINT bmp_nb_RLE_pixel(UCHAR *buf);
+ ^
+../src/bitmap.h:15:36: error: unknown type name 'UINT'
+ void bmp_to_crgb(const UCHAR *buf, UINT nbRLEpixel, UINT32 *crgb);
+                                    ^
+../src/bitmap.c:9:1: error: unknown type name 'UINT'
+ UINT readValue(const UCHAR* fileBuf, /* buffer du fichier bmp */
+ ^
+../src/bitmap.c:10:7: error: unknown type name 'UINT'
+ const UINT offset, /* Place ou on veut commencer la lecture */
+       ^
+../src/bitmap.c:11:7: error: unknown type name 'UINT'
+ const UINT width /* Largeur en bytes du champ a lire */
+       ^
+../src/bitmap.c: In function 'readValue':
+../src/bitmap.c:13:2: error: unknown type name 'UINT'
+  UINT result = 0;
+  ^
+../src/bitmap.c:14:2: error: unknown type name 'UINT'
+  UINT i;
+  ^
+../src/bitmap.c: At top level:
+../src/bitmap.c:23:1: error: unknown type name 'UINT'
+ UINT bmp_nb_RLE_pixel(UCHAR *buf /* buffer du fichier bmp */
+ ^
+../src/bitmap.c: In function 'bmp_nb_RLE_pixel':
+../src/bitmap.c:28:2: error: unknown type name 'UINT'
+  UINT sizeBmpFile = readValue(buf, 2, 4);
+  ^
+../src/bitmap.c:29:2: error: unknown type name 'UINT'
+  UINT sizeHeader = readValue(buf, 10, 4);
+  ^
+../src/bitmap.c: At top level:
+../src/bitmap.c:35:1: error: unknown type name 'UINT'
+ UINT nbRLEpixel, /* Nb de paire (counter, pixel) */
+ ^
+make: *** [src/bitmap.o] Erreur 1
+12:51:32 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.h:10:0,
+                 from ../src/bitmap.c:1:
+C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc/ff.h:25:47: fatal error: integer.h: No such file or directory
+ #include "integer.h" /* Basic integer types */
+                                               ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+12:53:35 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.h:10:0,
+                 from ../src/bitmap.c:1:
+C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc/ff.h:26:55: fatal error: ffconf.h: No such file or directory
+ #include "ffconf.h"  /* FatFs configuration options */
+                                                       ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+12:53:50 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.h:10:0,
+                 from ../src/bitmap.c:1:
+C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc/ff.h:26:55: fatal error: ffconf.h: No such file or directory
+ #include "ffconf.h"  /* FatFs configuration options */
+                                                       ^
+compilation terminated.
+make: *** [src/bitmap.o] Erreur 1
+12:54:55 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+In file included from ../src/bitmap.h:10:0,
+                 from ../src/bitmap.c:1:
+C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc/ff.h:29:2: error: #error Wrong configuration file (ffconf.h).
+ #error Wrong configuration file (ffconf.h).
+  ^
+C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc/ff.h:112:11: error: '_MAX_SS' undeclared here (not in a function)
+  BYTE win[_MAX_SS] __attribute__ ((aligned(32))); /* Disk access window for Directory, FAT (and Data on tiny cfg) */
+           ^
+make: *** [src/bitmap.o] Erreur 1
+12:55:00 **** Auto Build of configuration Debug for project TP2 ****
+make all 
+Building file: ../src/bitmap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\inc" -c -fmessage-length=0 -MT"src/bitmap.o" -I../../TP2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+Finished building: ../src/bitmap.c
+ 
+Building target: TP2.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"C:\Temp\tp2Code\adv7511_zed.sdk\TP2\lib" -Wl,-T -Wl,../src/lscript.ld -L../../TP2_bsp/ps7_cortexa9_0/lib -o "TP2.elf"  ./src/bitmap.o ./src/cf_hdmi.o ./src/main.o ./src/transmitter.o   -lHDMI_ZedBoardLib -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TP2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size TP2.elf  |tee "TP2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 104081	 704576	  23452	 832109	  cb26d	TP2.elf
+Finished building: TP2.elf.size
+ 
+12:55:24 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+12:55:35 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».
+12:57:19 **** Incremental Build of configuration Debug for project TP2 ****
+make all 
+make: Rien à faire pour « all ».

@@ -1,0 +1,129 @@
+10:51:12 INFO  : Launching XSDB server: xsdb.bat C:/Logiciels/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:51:14 INFO  : XSDB server has started successfully.
+10:51:14 INFO  : Processing command line option -hwspec C:/Temp/tp2Code/adv7511_zed.sdk/system_top.hdf.
+10:59:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:59:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+10:59:13 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
+10:59:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:01:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:01:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:01:51 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:03:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:04:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:08:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:08:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:09:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:09:02 ERROR : Error occured during Prog B register check
+11:10:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:10:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:10:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:10:14 ERROR : Error occured during Prog B register check
+11:10:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:11:19 INFO  : Launching XSDB server: xsdb.bat C:/Logiciels/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:11:21 INFO  : XSDB server has started successfully.
+11:11:22 INFO  : Processing command line option -hwspec C:/Temp/tp2Code/adv7511_zed.sdk/system_top.hdf.
+11:11:22 INFO  : Checking for hwspec changes in the project system_top_hw_platform_0.
+11:11:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:11:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:11:43 ERROR : Cannot find memory context of target ARM_DAP
+11:11:43 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:12:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:12:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:12:07 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:15:30 INFO  : ps7_init is completed.
+11:15:30 INFO  : ps7_post_config is completed.
+11:15:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:15:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+11:15:49 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:55:37 INFO  : ps7_init is completed.
+12:55:37 INFO  : ps7_post_config is completed.
+12:55:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:55:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+12:55:48 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:57:21 INFO  : ps7_init is completed.
+12:57:21 INFO  : ps7_post_config is completed.
+12:57:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684595" && level==0} -index 1' command is executed.
+12:57:33 INFO  : FPGA configured successfully with bitstream "C:/Temp/tp2Code/adv7511_zed.sdk/system_top_hw_platform_0/system_top.bit"
